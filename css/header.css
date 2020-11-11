@@ -1,0 +1,56 @@
+.header{
+    margin:0px;
+}
+
+#button{
+    float:right;width: 20%;
+    margin-right: 0px;
+    text-align: end;
+}
+
+#titleBlock{
+    float:left;
+}
+
+#logo{
+    color:#0418a9;
+    margin-top: 0px; 
+    margin-bottom: 0%;
+        font-size: 300%;
+    filter: contrast(0.8);
+    font-family:'Satisfy',cursive;
+}
+
+#helpingText{
+    margin-top: 0px;
+    font-family:'Satisfy',cursive;
+    font-size:100%;
+}
+
+.signbuttons{
+    margin-top: 3%;
+    margin-right: 3%;
+    font-size:90%;
+    padding: 2% 6% 3% 8%;
+    border-left: 0px;
+    border-bottom-color: aliceblue;
+    border-right-color: aliceblue;
+    background-color: blue;
+    color:white;
+}
+
+@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v11/nwpTtK2oNgBA3Or78gapdwuyzCg_WMM.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v11/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
