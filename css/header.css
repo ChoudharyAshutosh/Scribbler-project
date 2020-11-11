@@ -27,6 +27,67 @@
     font-size:100%;
 }
 
+.content-box{
+    padding:1% 1% 4% 1%;
+    width:85%;
+    border-style: solid;
+    border-radius: 0px;
+}
+
+.content-header{
+    margin-right:5%;
+    margin-left:4%;
+    border-bottom: 1px solid black;
+}
+
+.body-content{
+    padding-top: 0%;
+}
+
+.form-input-block{
+    margin-top: 5%;
+    padding:0px;
+    width:100%;
+    border-radius: 0px;
+}
+
+.input-control{
+    width:100%;
+    border-radius: 0px;
+    border: 0px;
+    height:100%;
+    padding: 3% 4% 3% 4%;
+    background-color:#a9a9a92e;
+}
+
+.label-control{
+    font-family: none;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.signup-switch{
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.a{
+    color: blue;
+}
+
+.button-control{
+    font-family: none;
+    font-size: medium;
+    color: white;
+    width:100%;
+    border-radius: 0px;
+    border: 0px;
+    height:100%;
+    padding: 3% 4% 3% 4%;
+    background-color:#0080009c;
+}
+
 .signbuttons{
     margin-top: 3%;
     margin-right: 3%;
