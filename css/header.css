@@ -35,8 +35,6 @@
 }
 
 .content-header{
-    margin-right:5%;
-    margin-left:4%;
     border-bottom: 1px solid black;
 }
 
@@ -99,6 +97,19 @@
     background-color: blue;
     color:white;
 }
+
+.signbuttons:hover{
+    margin-top: 3%;
+    margin-right: 3%;
+    font-size:90%;
+    padding: 2% 6% 3% 8%;
+    border-left: 0px;
+    border-bottom-color: aliceblue;
+    border-right-color: aliceblue;
+    background-color: darkblue;
+    color:white;
+}
+
 
 @font-face {
   font-family: 'Marck Script';

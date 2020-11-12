@@ -49,7 +49,6 @@
                         </div>
                         <button type="submit" class="form-input-block button-control">Sign Up</button>
                     </form>
-
                 </div>
             </div>
         </div>
@@ -57,7 +56,7 @@
     <div class="modal" id="sign_in_modal">
         <div class="modal-dialog">
             <div class="modal-content content-box">
-                <div class="modal-header content-header" style="border-bottom: 1px solid gray;">
+                <div class="modal-header content-header">
                     <h3 class="w-100 text-center">Welcome Back!</h3>
                     <button type="button" class="close" data-dismiss="modal">
                         <span aria-hidden="true">&times;</span>
@@ -85,10 +84,37 @@
     </div>
 </div>
 <span id="postblock">
-    <button class="postButtons">&nbsp;All Posts&nbsp;</button>
-    <button class="postButtons">&nbsp;Create Post&nbsp;</button>
+    <button class="postButtons" onclick="open_lists();">&nbsp;All Posts&nbsp;</button>
+    <button class="postButtons" data-toggle="modal" data-target="#create_post">&nbsp;Create Post&nbsp;</button>
 </span>
+    <div class="modal" id="create_post">
+        <div class="modal-dialog dialog-control">
+            <div class="modal-content content-block">
+                <div class="modal-header block-header">
+                    <h3 class="w-100 text-center">Pen Your Post</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body body-block">
+                    <form>
+                        <div class="form-group">
+                            <label for="postTitle" >Title:</label>
+                            <input type="text" class="form-control" id="postTitle"  required>
+                        </div>
+                        <div clas="form-group" id="area-box">
+                            <label for="postContent">Content:</label>
+                            <textarea class="form-control" required id="postContent" rows="12"></textarea>
+                        </div>
+                        <div class="w-100 text-center">
+                            <button type="submit" class="btn btn-success" id="createButton">Create</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="JavaScript/index.js"></script>
 
-</body>
+</body>     
 </html>
