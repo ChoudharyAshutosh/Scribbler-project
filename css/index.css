@@ -4,7 +4,7 @@ body, html{
     background-position:center;
     background-size: cover;
     height: 100%;
-    width: 100%;
+    width: device-width ;
     background-origin: content-box;
     background-color: #cccccc;
 }
@@ -19,35 +19,34 @@ body, html{
 }
 
 .postButtons{
+    min-height: 2.5em;
+    font-family: none;
     font-size: 105%;
-    font-weight: bolder;
+    font-weight: bold;
+    border-radius: 0px;
     color:black;
     margin-right: 1%;
     background-color:#cca300;
     border-color:antiquewhite;
-    height: 13%;
 }
 
 .postButtons:hover{
-    font-size: 105%;
-    font-weight: bolder;
-    color:black;
-    margin-right: 1%;
     background-color:yellow;
-    border-color:antiquewhite;
-    height: 13%;
 }
 
 .dialog-control{
     height: 100%;
     width:100%;
-margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 16vw;
+    margin-right: 16vw;
 }
 
 .content-block{
-    height: 95%;
-    width:180%;
+    overflow: scroll;
+    overflow-y: scroll;
+    height:95vh;
+    width:68vw;
+    min-width: 100%;
     border-style: solid;
     border-radius: 0px;
 }
@@ -84,7 +83,6 @@ margin-left: 16%;
 }
 
 #area-box{
-    height: 100%;
     width:100%;
     padding:0% 1% 4% 1%;
     border-style: solid;
