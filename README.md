@@ -1,3 +1,2 @@
-This is home page working area of scribbler project.
-Home page is a login page.
-It contains sign in button, sign up button, all posts button and create post button.
+In this branch, we are going to work on 2nd part of Scribbler project.
+This part is a page containing list of posts.
