@@ -17,7 +17,7 @@
 #logo{
     color:#0418a9;
     margin-top: 0px; 
-    margin-bottom: 0%;
+    margin-bottom: 0px;;
     font-size: 300%;
     filter: contrast(0.8);
     font-family:'Satisfy',cursive;
@@ -27,6 +27,13 @@
     margin-top: 0px;
     font-family:'Satisfy',cursive;
     font-size:100%;
+}
+
+#helpingText-postslist{
+    margin-top: 0px;
+    font-family:'Satisfy',cursive;
+    font-size:100%;
+    color:white;
 }
 
 .content-box{
