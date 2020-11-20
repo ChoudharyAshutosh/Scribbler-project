@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Convergence&family=Niconne&family=Oswald&family=Quando&display=swap');
 body{
     margin: 0.1%;
+    overflow-x: hidden;
 }
 
 .post-title{
