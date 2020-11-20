@@ -2,14 +2,23 @@
     margin:0px;
 }
 
+.header1{
+    text-align: left;
+}
+
+.header2{
+    text-align: right;
+}
+
 #button{
-    float:right;width: 20%;
+    //float:right;
+    width: 20%;
     margin-right: 0px;
     text-align: end;
 }
 
 #titleBlock{
-    float:left;
+   // float:left;
     width:15%;
     height:10%;
 }
@@ -96,37 +105,80 @@
 }
 
 .signbuttons{
-    margin-top: 3%;
-    margin-right: 3%;
+    margin-top: 1.5%;
+    margin-left: 1%;
     font-size:90%;
     border-radius: 0px;
-    padding: 2% 6% 3% 8%;
-    border-left: 0px;
-    border-bottom-color: aliceblue;
-    border-right-color: aliceblue;
+    padding: 1.2% 3.5% 1.2% 3.5%;
+    border-right: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-top: 1px solid darkgray;
     background-color: blue;
     color:white;
 }
 
 .signbuttons:hover{
-    margin-top: 3%;
-    margin-right: 3%;
+    margin-top: 1.5%;
+    margin-left: 1%;
     font-size:90%;
-    padding: 2% 6% 3% 8%;
-    border-left: 0px;
-    border-bottom-color: aliceblue;
-    border-right-color: aliceblue;
+    border-radius: 0px;
+    padding: 1.2% 3.5% 1.2% 3.5%;
+    border-right: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-top: 1px solid darkgray;
+    background-color: darkblue;
+    color:white;
+}
+.signbuttonsPostslist{
+    margin-top: 1.5%;
+    margin-left: 1%;
+    font-size:90%;
+    border-radius: 0px;
+    padding: 1.2% 3.5% 1.2% 3.5%;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    background-color: blue;
+    color:white;
+}
+
+.signbuttonsPostslist:hover{
+    margin-top: 1.5%;
+    margin-left: 1%;
+    font-size:90%;
+    padding: 1.2% 3.5% 1.2% 3.5%;
+    padding: 1.2% 3.5% 1.2% 3.5%;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid lightgray;
+    border-top: 2px solid lightgray;
     background-color: darkblue;
     color:white;
 }
 
 
-@font-face {
-  font-family: 'Marck Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v11/nwpTtK2oNgBA3Or78gapdwuyzCg_WMM.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+.signbuttonsPostPage{
+    margin-top: 1.5%;
+    margin-left: 1%;
+    font-size:90%;
+    border-radius: 0px;
+    padding: 1.2% 3.5% 1.2% 3.5%;
+    border: 2px solid lightgray;
+    background-color: blue;
+    color:white;
+}
+
+.signbuttonsPostPage:hover{
+    margin-top: 1.5%;
+    margin-left: 1%;
+    font-size:90%;
+    padding: 1.2% 3.5% 1.2% 3.5%;
+    border: 2px solid darkgray;
+    background-color: darkblue;
+    color:white;
 }
 
 @font-face {
