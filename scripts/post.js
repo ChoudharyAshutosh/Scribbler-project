@@ -5,6 +5,8 @@ function edit_and_save(){
     if(j=="editButton"){
         j="saveButton";
         postArea.contentEditable="true";
+        document.getElementById('postTitle').contentEditable="true";
+        document.getElementById('postTitle').style.border="2px solid lightblue";
         postArea.style.border="2px solid lightblue";  
         document.getElementById('buttonText').innerHTML="Save";
         document.getElementById('buttonSymbol').setAttribute('class','fa fa-save');
@@ -12,12 +14,13 @@ function edit_and_save(){
     else if(j=="saveButton"){
         j="editButton";
         postArea.contentEditable="false";
+        document.getElementById('postTitle').contentEditable="false";
+        document.getElementById('postTitle').style.border="0px solid lightblue"
         postArea.style.border="0px solid lightblue";  
         document.getElementById('buttonText').innerHTML="Edit";
         document.getElementById('buttonSymbol').setAttribute('class','fa fa-edit');
     }
 }
-
 function likeUpdate(){
     var j=document.getElementById('likeButtonText');
     if(numberOfLikes==0){
